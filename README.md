@@ -1,46 +1,48 @@
 ![Last commit](https://img.shields.io/github/last-commit/a-oleynik/interview-training?style=for-the-badge&color=9cf&logo=git)
 ![GitHub top language](https://img.shields.io/github/languages/top/a-oleynik/interview-training?style=for-the-badge&color=blue)
 
-# Express interview training
+# Экспресс Собесы - интенсив
 
-## Lesson №1
+## Занятие №1 Типичные ошибки на собесах
 
-## Live coding tasks
+## Лайвкодинг задачи
 
-### Task 1
-Write a function that takes an array of numbers and returns the sum of its elements.
+### Задача 1
+Написать функцию, которая принимает массив чисел и возвращает сумму его элементов.
 
-[Solution](https://github.com/a-oleynik/leetcode-java/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/ArraySum.java)
+[Решение](https://github.com/a-oleynik/interview-training/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/ArraySum.java)
 
-### Task 2
-Write a method that takes a string and returns it in reverse order.
+### Задача 2
+Написать метод, который принимает строку и возвращает её в обратном порядке.
 
-[Solution](https://github.com/a-oleynik/leetcode-java/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/ReversedString.java)
+[Решение](https://github.com/a-oleynik/interview-training/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/ReversedString.java)
 
-## Live coding harder tasks
-### Task 1
+## Лайвкодинг посложнее задачи
+### Задача 1
 Write a function that checks whether the given string is a palindrome (reads the same in both directions).
 
-[Solution](https://github.com/a-oleynik/leetcode-java/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/Palindrome.java)
+[Решение](https://github.com/a-oleynik/interview-training/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/Palindrome.java)
 
-### Task 2
+### Задача 2
 Develop a method that, by given a number N, creates an N x N matrix filled with numbers from 1 to N^2 in a spiral starting from the upper left corner.
 
-[Solution](https://github.com/a-oleynik/leetcode-java/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/Spiral.java)
+[Решение](https://github.com/a-oleynik/interview-training/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/Spiral.java)
 
-### Task
+### Задача
 
-Implement a universal Cache class that can store elements of different types. The class must support operations of adding an element, getting an element by key, and deleting an element by key.
+Реализовать универсальный класс **Cache**, который может хранить элементы разных типов. Класс должен поддерживать операции добавления элемента, получения элемента по ключу и удаления элемента по ключу.
 
-#### Basic requirements and approaches
-1.  The Cache class must be typed.
-* Use generics to type the class so that it can work with any data type.
-2. Storing items.
-* Use HashMap to store items where the key and value can be of different types.
-3. Methods for working with cache
-* public void put(K key, V value) - adds an element to the cache.
-* public V get(K key) - returns an element by key, if the element is not found, returns null.
-* public void remove(K key) - removes an element by the specified key.
+#### Основные требования и подходы
+1.  Класс Cache должен быть типизирован.
+* Используйте generics для типизации класса, так чтобы он мог работать с любым типом данных.
+2. Хранение элементов.
+* Используйте HashMap для хранения элементов, где ключ и значение могут быть различных типов.
+3. Методы для работы с кэшем:
+* public void put(K key, V value) - добавляет элемент в кэш.
+* public V get(K key) - возвращает элемент по ключу, если элемент не найден, возвращает null.
+* public void remove(K key) - удаляет элемент по указанному ключу.
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/Cache.java)
 
 ## Lesson №2
 
