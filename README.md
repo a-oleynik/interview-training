@@ -101,10 +101,12 @@
 Формула: F = C * 9/5 + 32.
 
 **Пример:**
-Copy code
 
 Введите температуру в Цельсиях: 25
+
 Температура в Фаренгейтах: 77
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/basicoperations/CelsiusFahrenheit.java)
 
 
 ### Задача 5: Обмен значениями переменных
