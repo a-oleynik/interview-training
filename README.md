@@ -54,15 +54,14 @@
 Напишите программу, которая принимает два числа с консоли, складывает их и выводит разность.
 
 **Пример ввода:**
-Copy code
 10
 5
 
 **Пример вывода:**
-makefile
-Copy code
 Сумма: 15
 Разность: 5
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/basicoperations/AdditionAndSubtraction.java)
 
 
 ### Задача 2: Площадь прямоугольника
