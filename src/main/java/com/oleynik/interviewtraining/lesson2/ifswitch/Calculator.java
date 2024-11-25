@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void calculate(int number1, char operation, int number2) {
-
-
         switch (operation) {
             case '+':
                 System.out.println("Результат: " + (number1 + number2));

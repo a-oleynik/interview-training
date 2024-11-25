@@ -156,6 +156,9 @@
 
 Результат: Зима
 
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/ifswitch/Season.java)
+
+
 ### Задача 4: Проверка возраста
 Напишите программу, которая определяет категорию человека по возрасту:
 
@@ -171,6 +174,9 @@
 Введите возраст: 30
 
 Результат: Взрослый
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/ifswitch/AgeCategory.java)
+
 
 ### Задача 5: Проверка делимости
 Напишите программу, которая проверяет, делится ли число на 3 и 5 одновременно.
