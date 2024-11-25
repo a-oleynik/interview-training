@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class StarPyramid {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Введите высоту пирамиды: ");
-        int height = sc.nextInt();
-        sc.close();
+        int height = scanner.nextInt();
+        scanner.close();
         for (int i = 0; i < height; i++) {
             printCharacter(height - i - 1, " ");
             printCharacter(1 + i * 2, "*");

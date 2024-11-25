@@ -288,6 +288,8 @@
 Введите N: 10
 Простые числа: 2 3 5 7
 
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/nestedloops/PrimeNumbers.java)
+
 ### Задача 5: Шахматная доска
 Выведите шахматную доску размером N x N, где клетки чередуются символами # и ..
 
