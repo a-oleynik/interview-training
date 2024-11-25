@@ -131,7 +131,6 @@
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/ifswitch/CheckIfEven.java)
 
-
 ### Задача 2: Калькулятор с использованием switch
 Реализуйте простой калькулятор, который выполняет операции +, -, *, /, используя switch.
 
@@ -144,6 +143,9 @@
 Введите второе число: 3
 
 Результат: 21
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/ifswitch/Calculator.java)
+
 
 ### Задача 3: Определение времени года
 Пользователь вводит номер месяца (1-12). Выведите название соответствующего времени года, используя switch.
