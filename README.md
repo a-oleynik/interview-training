@@ -85,14 +85,16 @@
 Запросите у пользователя два числа и выведите результат их деления и остаток от деления.
 
 **Пример:**
-makefile
-Copy code
 
 Введите первое число: 17
+
 Введите второе число: 3
+
 Результат деления: 5
+
 Остаток: 2
 
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/basicoperations/DivisionWithRemainder.java)
 
 ### Задача 4: Перевод градусов Цельсия в Фаренгейты
 Реализуйте программу, которая преобразует температуру из Цельсия в Фаренгейты:
