@@ -311,4 +311,4 @@ Circle circle = new Circle(5);
 System.out.println("Площадь: " + circle.getArea());
 System.out.println("Длина окружности: " + circle.getCircumference());
 ```
-
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/oop/circle/Circle.java)
