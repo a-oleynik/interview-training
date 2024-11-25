@@ -10,23 +10,23 @@
 ### Задача 1
 Написать функцию, которая принимает массив чисел и возвращает сумму его элементов.
 
-[Решение](https://github.com/a-oleynik/interview-training/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/ArraySum.java)
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson1/ArraySum.java)
 
 ### Задача 2
 Написать метод, который принимает строку и возвращает её в обратном порядке.
 
-[Решение](https://github.com/a-oleynik/interview-training/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/ReversedString.java)
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson1/ReversedString.java)
 
 ## Лайвкодинг посложнее задачи
 ### Задача 1
 Напишите функцию, которая проверяет, является ли переданная строка палиндромом (читается одинаково в обоих направлениях).
 
-[Решение](https://github.com/a-oleynik/interview-training/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/Palindrome.java)
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson1/Palindrome.java)
 
 ### Задача 2
 Разработать метод, который по заданному числу N создает матрицу N x N, заполненную числами от 1 до N^2 по спирали начиная от верхнего левого угла.
 
-[Решение](https://github.com/a-oleynik/interview-training/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/Spiral.java)
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson1/Spiral.java)
 
 ### Задача
 
@@ -42,7 +42,7 @@
 * public V get(K key) - возвращает элемент по ключу, если элемент не найден, возвращает null.
 * public void remove(K key) - удаляет элемент по указанному ключу.
 
-[Решение](https://github.com/a-oleynik/interview-training/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/Cache.java)
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson1/Cache.java)
 
 ## Lesson №2
 
