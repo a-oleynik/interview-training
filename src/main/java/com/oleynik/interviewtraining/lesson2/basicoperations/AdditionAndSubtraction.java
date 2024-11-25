@@ -9,7 +9,6 @@ public class AdditionAndSubtraction {
     }
 
     public static void main(String[] args) {
-        // Input from command line
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите 2 числа: ");
         int a = sc.nextInt();

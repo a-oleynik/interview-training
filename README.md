@@ -54,11 +54,15 @@
 Напишите программу, которая принимает два числа с консоли, складывает их и выводит разность.
 
 **Пример ввода:**
+
 10
+
 5
 
 **Пример вывода:**
+
 Сумма: 15
+
 Разность: 5
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/basicoperations/AdditionAndSubtraction.java)
@@ -68,13 +72,14 @@
 Напишите программу, которая вычисляет площадь прямоугольника, используя введённые с консоли ширину и длину.
 
 **Пример:**
-makefile
-Copy code
 
 Ширина: 4
+
 Длина: 6
+
 Площадь: 24
 
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/basicoperations/RectangleArea.java)
 
 ### Задача 3: Операции с остатком от деления
 Запросите у пользователя два числа и выведите результат их деления и остаток от деления.
