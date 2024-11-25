@@ -221,6 +221,8 @@
 ...
 3 x 10 = 30
 ```
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/forloop/MultiplicationForNumber.java)
+
 
 ### Задача 4: Факториал числа
 Напишите программу, которая вычисляет факториал числа N (N! = 1 * 2 * ... * N).
@@ -250,6 +252,7 @@
 ...
 10 x 10 = 100
 ```
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/nestedloops/MultiplicationTable.java)
 
 ### Задача 2: Прямоугольник из звёздочек
 
