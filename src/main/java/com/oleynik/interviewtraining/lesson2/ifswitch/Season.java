@@ -17,6 +17,7 @@ public class Season {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите номер месяца (1-12): ");
         int month = scanner.nextInt();
+        scanner.close();
         System.out.println("Результат: " + getSeason(month));
     }
 }

@@ -14,7 +14,7 @@ public class DivisionWithRemainder {
         int a = sc.nextInt();
         System.out.println("Введите второе число: ");
         int b = sc.nextInt();
-
+        sc.close();
         divisionWithRemainder(a, b);
     }
 }

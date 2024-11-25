@@ -8,6 +8,7 @@ public class ExchangeValuesOfVariable {
         System.out.println("Введите переменные a и b: ");
         int a = sc.nextInt();
         int b = sc.nextInt();
+        sc.close();
         System.out.printf("До обмена: a = %1$d, b = %2$d\n", a, b);
         a = a + b;
         b = a - b;

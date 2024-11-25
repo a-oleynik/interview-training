@@ -11,6 +11,7 @@ public class CelsiusFahrenheit {
         Scanner sc = new Scanner(System.in);
         System.out.print("Введите температуру в Цельсиях: ");
         int c = sc.nextInt();
+        sc.close();
         System.out.println("Температура в Фаренгейтах: " + celsiusToFahrenheit(c));
     }
 }

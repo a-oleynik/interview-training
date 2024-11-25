@@ -51,6 +51,7 @@ public class RectangleArea {
         System.out.println("Введите ширину и высоту прямоугольника: ");
         int a = sc.nextInt();
         int b = sc.nextInt();
+        sc.close();
         Rectangle rectangle = new Rectangle(a, b);
         System.out.println("Площадь: " + rectangle.getArea());
     }

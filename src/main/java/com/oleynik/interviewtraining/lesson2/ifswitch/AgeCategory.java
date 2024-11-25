@@ -24,6 +24,7 @@ public class AgeCategory {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите возраст: ");
         int age = scanner.nextInt();
+        scanner.close();
         System.out.println("Результат: " + getAgeCategory(age));
     }
 }

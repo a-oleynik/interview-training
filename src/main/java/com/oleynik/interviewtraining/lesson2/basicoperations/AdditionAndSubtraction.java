@@ -13,7 +13,7 @@ public class AdditionAndSubtraction {
         System.out.println("Введите 2 числа: ");
         int a = sc.nextInt();
         int b = sc.nextInt();
-
+        sc.close();
         addSubtract(a, b);
     }
 }

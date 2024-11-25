@@ -35,7 +35,7 @@ public class Calculator {
         String operation = scanner.nextLine();
         System.out.println("Введите второе число");
         int number2 = scanner.nextInt();
-
+        scanner.close();
         calculate(number1, operation.strip().charAt(0), number2);
     }
 }
