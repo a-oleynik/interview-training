@@ -277,6 +277,8 @@
   ***
  *****
 ```
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/nestedloops/StarPyramid.java)
+
 
 ### Задача 4: Поиск простых чисел
 Найдите все простые числа от 2 до N. Используйте вложенные циклы для проверки делимости.
