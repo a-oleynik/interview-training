@@ -264,6 +264,8 @@
 ****
 ****
 ```
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/nestedloops/StarRectangle.java)
+
 
 ### Задача 3: Пирамида из звёздочек
 
