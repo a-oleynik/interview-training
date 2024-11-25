@@ -108,16 +108,16 @@
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/basicoperations/CelsiusFahrenheit.java)
 
-
 ### Задача 5: Обмен значениями переменных
 Поменяйте значения двух переменных местами без использования третьей переменной.
 
 **Пример:**
-less
-Copy code
+
 До обмена: a = 5, b = 10
+
 После обмена: a = 10, b = 5
 
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/basicoperations/ExchangeValuesOfVariable.java)
 
 
 
