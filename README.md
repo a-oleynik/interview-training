@@ -243,6 +243,8 @@
 
 Чётные числа: 2 4 6 8 10
 
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/forloop/EvenNumbers.java)
+
 ### Задачи на вложенные циклы
 ### Задача 1: Таблица умножения
 
