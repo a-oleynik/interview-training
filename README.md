@@ -300,6 +300,7 @@
 #.#.
 .#.#
 ```
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/nestedloops/Chessboard.java)
 
 ### Задачи на классы, конструкторы и ООП-принципы
 ### Задача 1: Создание класса "Круг"
