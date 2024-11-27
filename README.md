@@ -402,9 +402,9 @@ System.out.println("Периметр круга: " + circle.getPerimeter());
 
 ## [Занятие №3 Классы и ООП](https://github.com/a-oleynik/interview-training/tree/main/Lesson3.md)
 
-## [Д.з. для занятия №3](https://github.com/a-oleynik/interview-training/blob/main/Lesson3.md%23%23%D0%94.%D0%B7.%20%D0%B4%D0%BB%D1%8F%20%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D0%B8%D1%8F%20%E2%84%963)
+## [Д.з. для занятия №3](https://github.com/a-oleynik/interview-training/blob/main/Lesson3.md#Дз-для-занятия-№3)
 
-## Задача 1: Класс для представления прямоугольника
+## [Задача 1: Класс для представления прямоугольника](https://github.com/a-oleynik/interview-training/blob/main/Lesson3.md#задача-1-класс-для-представления-прямоугольника)
 **Описание:**
 Создайте класс Rectangle, который будет представлять прямоугольник.
 **Класс должен содержать:**

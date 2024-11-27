@@ -1,4 +1,15 @@
 # Занятие №3 Классы и ООП
+## Table of Contents
+* [Д.з. для занятия №3](#Дз-для-занятия-№3)
+* [Задача 1: Класс для представления прямоугольника](#задача-1-класс-для-представления-прямоугольника)
+* [Задача 2: Класс для представления банковского счета](#задача-2-класс-для-представления-банковского-счета)
+* [Задача 3: Класс для представления единицы товара](#задача-3-класс-для-представления-единицы-товара)
+* [Задача 4: Класс для человека](#задача-4-класс-для-человека)
+* [Задача 5: Класс Student](#задача-5-класс-student)
+* [Задача 6: Класс "Товар"](#задача-6-класс-товар)
+* [Задача 7: Класс животного и наследование](#задача-7-класс-животного-и-наследование)
+* [Задача 8: Банковский счет и принципы ООП](#задача-8-банковский-счет-и-принципы-ооп)
+
 ## Д.з. для занятия №3
 
 ## Задача 1: Класс для представления прямоугольника
@@ -12,6 +23,8 @@
     * getPerimeter(): возвращает периметр прямоугольника.
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/rectangle/Rectangle.java)
+
+[Back to Table of Contents](#table-of-contents)
 
 ## Задача 2: Класс для представления банковского счета
 **Описание:**
@@ -28,6 +41,8 @@
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/simplebankaccount/BankAccount.java)
 
+[Back to Table of Contents](#table-of-contents)
+
 ## Задача 3: Класс для представления единицы товара
 **Описание:**
 Создайте класс Item, который будет представлять товар.
@@ -43,6 +58,8 @@
     * getInfo(): возвращает строку с информацией о товаре.
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/item/Item.java)
+
+[Back to Table of Contents](#table-of-contents)
 
 ## Задача 4: Класс для человека
 **Описание задачи:**
@@ -62,6 +79,8 @@
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/person/Person.java)
 
+[Back to Table of Contents](#table-of-contents)
+
 ## Задача 5: Класс Student
 Создайте класс Student, который будет представлять студента.
 **Требования:**
@@ -78,6 +97,8 @@
     * clone: создайте глубокую копию объекта.
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/student/Student.java)
+
+[Back to Table of Contents](#table-of-contents)
 
 ## Задача 6: Класс "Товар"
 **Описание:**
@@ -98,6 +119,8 @@
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/product/Product.java)
 
+[Back to Table of Contents](#table-of-contents)
+
 ## Задача 7: Класс животного и наследование
 **Описание:**
 Создайте классы Animal (животное) и Dog (собака). Используйте принцип наследования:
@@ -109,6 +132,8 @@
     * Добавляет метод fetch() с выводом строки: "Собака приносит палку".
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/animals/Dog.java)
+
+[Back to Table of Contents](#table-of-contents)
 
 ## Задача 8: Банковский счет и принципы ООП
 **Описание:**
@@ -130,3 +155,6 @@
 5. Полиморфизм:
     * Используйте массив объектов BankAccount, чтобы показать работу методов для разных типов счетов.
 
+
+
+[Back to Table of Contents](#table-of-contents)
