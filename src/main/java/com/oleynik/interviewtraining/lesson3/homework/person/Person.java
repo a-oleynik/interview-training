@@ -1,23 +1,11 @@
 package com.oleynik.interviewtraining.lesson3.homework.person;
 
+import com.oleynik.interviewtraining.lesson3.homework.person.enums.City;
+import com.oleynik.interviewtraining.lesson3.homework.person.enums.Gender;
+
 import java.util.Objects;
 
 public class Person {
-    /*
-     * Поля:
-     * Имя (name) — строка.
-     * Возраст (age) — целое число.
-     * Пол (gender) — строка (например, "мужчина" или "женщина").
-     * Город (city) — строка.
-     * Несколько конструкторов:
-     * Конструктор, принимающий только имя.
-     * Конструктор, принимающий имя и возраст.
-     * Конструктор, принимающий все поля.
-     * Методы:
-     * Геттеры и сеттеры для всех полей.
-     * Переопределите методы equals и hashCode так, чтобы люди считались равными, если у них совпадают имя и возраст.
-
-     */
     private String name;
     private int age;
     private Gender gender;
@@ -87,7 +75,7 @@ public class Person {
     public String toString() {
         return  "Person{" +
                 "name='" + name + '\'' +
-                "age='" + age +
+                ", age='" + age +
                 ", gender=" + gender +
                 ", city=" + city +
                 '}';

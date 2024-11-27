@@ -499,3 +499,16 @@ System.out.println("Периметр круга: " + circle.getPerimeter());
    * Реализуйте clone для копирования товара.
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/product/Product.java)
+
+## Задача 7: Класс животного и наследование
+**Описание:**
+Создайте классы Animal (животное) и Dog (собака). Используйте принцип наследования:
+1. Animal — базовый класс, содержащий:
+    * Поля: name (имя животного) и age (возраст).
+    * Метод makeSound(), который выводит строку: "Животное издает звук".
+2. Dog — подкласс, наследующий Animal:
+   * Переопределяет метод makeSound() для вывода строки: "Собака лает".
+   * Добавляет метод fetch() с выводом строки: "Собака приносит палку".
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/animals/Dog.java)
+

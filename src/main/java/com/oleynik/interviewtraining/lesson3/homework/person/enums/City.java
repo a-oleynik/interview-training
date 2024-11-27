@@ -1,4 +1,4 @@
-package com.oleynik.interviewtraining.lesson3.homework.person;
+package com.oleynik.interviewtraining.lesson3.homework.person.enums;
 
 public enum City {
     DUBLIN,
