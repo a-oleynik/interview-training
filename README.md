@@ -282,7 +282,6 @@
 ```
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/nestedloops/StarPyramid.java)
 
-
 ### Задача 4: Поиск простых чисел
 Найдите все простые числа от 2 до N. Используйте вложенные циклы для проверки делимости.
 
@@ -322,3 +321,127 @@ System.out.println("Площадь: " + circle.getArea());
 System.out.println("Длина окружности: " + circle.getCircumference());
 ```
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson2/oop/circle/Circle.java)
+
+### Задача 2: Класс "Книга"
+Создайте класс Book, который описывает книгу:
+* Поля: title (название), author (автор), price (цена).
+* Конструктор, который принимает все три параметра.
+Метод printInfo(), который выводит информацию о книге в формате:
+```
+Название: <title>, Автор: <author>, Цена: <price>
+```
+
+Пример использования:
+```java
+Book book = new Book("Мастер и Маргарита", "М. Булгаков", 500);
+book.printInfo();
+```
+
+### Задача 3: Наследование - Класс "Сотрудник" и "Менеджер"
+Создайте два класса:
+1. Employee (сотрудник) с полями:
+* name (имя),
+* salary (зарплата).
+* Конструктор для инициализации полей.
+* Метод printInfo(), выводящий информацию о сотруднике.
+2. Manager, который наследуется от Employee:
+* Дополнительное поле bonus (премия).
+* Переопределите метод printInfo() так, чтобы он выводил и бонус.
+
+Пример использования:
+```java
+Employee emp = new Employee("Иван", 30000);
+Manager mgr = new Manager("Ольга", 50000, 10000);
+
+emp.printInfo(); // Иван: зарплата 30000
+mgr.printInfo(); // Ольга: зарплата 50000, бонус 10000
+```
+
+### Задача 4: Инкапсуляция - Класс "Банк"
+Создайте класс BankAccount, который описывает банковский счёт:
+* Поля:
+    * accountNumber (номер счёта, String),
+    * balance (баланс, double).
+* Конструктор для инициализации счёта.
+* Методы:
+    * deposit(double amount) - увеличивает баланс.
+    * withdraw(double amount) - уменьшает баланс (если средств достаточно).
+    * getBalance() - возвращает текущий баланс.
+
+Пример использования:
+```java
+BankAccount account = new BankAccount("12345", 1000.0);
+account.deposit(500);
+account.withdraw(300);
+System.out.println("Баланс: " + account.getBalance());
+```
+
+### Задача 5: Полиморфизм - Фигуры
+Создайте иерархию классов для фигур:
+
+1. Абстрактный класс Shape:
+   * Абстрактный метод double getArea().
+   * Абстрактный метод double getPerimeter().
+2. Класс Rectangle (прямоугольник), наследуется от Shape:
+   * Поля: width (ширина), height (высота).
+   * Реализует методы для расчёта площади и периметра.
+3. Класс Circle, наследуется от Shape:
+   * Поле: radius (радиус).
+   * Реализует методы для расчёта площади и периметра.
+
+Пример использования:
+```java
+Shape rectangle = new Rectangle(4, 5);
+Shape circle = new Circle(3);
+
+System.out.println("Площадь прямоугольника: " + rectangle.getArea());
+System.out.println("Периметр прямоугольника: " + rectangle.getPerimeter());
+System.out.println("Площадь круга: " + circle.getArea());
+System.out.println("Периметр круга: " + circle.getPerimeter());
+```
+
+## Занятие №3 Классы и ООП
+## Д.з. для занятия №3
+
+## Задача 1: Класс для представления прямоугольника
+**Описание:**
+Создайте класс Rectangle, который будет представлять прямоугольник.
+**Класс должен содержать:**
+1. Два поля: ширина (width) и высота (height).
+2. Конструктор для инициализации ширины и высоты.
+3. Методы:
+   * getArea(): возвращает площадь прямоугольника.
+   * getPerimeter(): возвращает периметр прямоугольника.
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/rectangle/Rectangle.java)
+
+## Задача 2: Класс для представления банковского счета
+**Описание:**
+Создайте класс BankAccount, который будет представлять банковский счет.
+
+Класс должен содержать:
+1. Поля:
+   * Номер счета (accountNumber).
+   * Баланс (balance).
+2. Методы:
+   * deposit(double amount): пополнение счета.
+   * withdraw(double amount): снятие денег с проверкой на достаточность средств.
+   * getBalance(): возвращает текущий баланс.
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/bank/BankAccount.java)
+
+## Задача 3: Класс для представления единицы товара
+**Описание:**
+Создайте класс Item, который будет представлять товар.
+
+Класс должен содержать:
+1. Поля:
+   * Название товара (name).
+   * Цена товара (price).
+   * Количество на складе (quantity).
+2. Методы:
+   * sell(int amount): уменьшает количество на складе на заданное значение, если достаточно товара.
+   * restock(int amount): добавляет указанное количество на склад.
+   * getInfo(): возвращает строку с информацией о товаре.
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/item/Item.java)
