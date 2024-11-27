@@ -445,3 +445,57 @@ System.out.println("Периметр круга: " + circle.getPerimeter());
    * getInfo(): возвращает строку с информацией о товаре.
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/item/Item.java)
+
+## Задача 4: Класс для человека
+**Описание задачи:**
+Создайте класс Person, который будет представлять человека. Класс должен содержать:
+* Поля:
+  * Имя (name) — строка.
+  * Возраст (age) — целое число.
+  * Пол (gender) — строка (например, "мужчина" или "женщина").
+  * Город (city) — строка.
+* Несколько конструкторов:
+  * Конструктор, принимающий только имя.
+  * Конструктор, принимающий имя и возраст.
+  * Конструктор, принимающий все поля.
+* Методы:
+  * Геттеры и сеттеры для всех полей.
+  * Переопределите методы equals и hashCode так, чтобы люди считались равными, если у них совпадают имя и возраст.
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/person/Person.java)
+
+## Задача 5: Класс Student
+Создайте класс Student, который будет представлять студента.
+**Требования:**
+1. Поля:
+   * Имя (name).
+   * ID студента (id).
+   * Средний балл (gpa).
+2. Реализуйте:
+   * Конструкторы:
+     * По умолчанию (без параметров).
+     * Конструктор для инициализации всех полей.
+   * equals и hashCode: два студента считаются равными, если у них совпадают id.
+   * toString: метод, возвращающий строку с информацией о студенте (например, "Student{id=101, name='Anna', gpa=3.8}").
+   * clone: создайте глубокую копию объекта.
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/student/Student.java)
+
+## Задача 6: Класс "Товар"
+**Описание:**
+Создайте класс Product, который будет представлять товар.
+
+Класс должен содержать:
+1. Поля:
+   * Название (name) — строка.
+   * Цена (price) — double.
+   * Уникальный идентификатор (id) — int.
+2. Конструкторы:
+   * Конструктор по умолчанию.
+   * Конструктор с параметрами.
+3. Методы:
+   * Переопределите equals и hashCode так, чтобы товары считались равными, если совпадают их id.
+   * Переопределите toString для вывода информации о товаре.
+   * Реализуйте clone для копирования товара.
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/product/Product.java)
