@@ -400,8 +400,9 @@ System.out.println("Площадь круга: " + circle.getArea());
 System.out.println("Периметр круга: " + circle.getPerimeter());
 ```
 
-## Занятие №3 Классы и ООП
-## Д.з. для занятия №3
+## [Занятие №3 Классы и ООП](https://github.com/a-oleynik/interview-training/tree/main/Lesson3.md)
+
+## [Д.з. для занятия №3](https://github.com/a-oleynik/interview-training/tree/main/Lesson3.md%23%23%D0%94.%D0%B7.%20%D0%B4%D0%BB%D1%8F%20%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D0%B8%D1%8F%20%E2%84%963)
 
 ## Задача 1: Класс для представления прямоугольника
 **Описание:**
@@ -428,7 +429,7 @@ System.out.println("Периметр круга: " + circle.getPerimeter());
    * withdraw(double amount): снятие денег с проверкой на достаточность средств.
    * getBalance(): возвращает текущий баланс.
 
-[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/bank/BankAccount.java)
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/simplebankaccount/BankAccount.java)
 
 ## Задача 3: Класс для представления единицы товара
 **Описание:**
@@ -511,4 +512,24 @@ System.out.println("Периметр круга: " + circle.getPerimeter());
    * Добавляет метод fetch() с выводом строки: "Собака приносит палку".
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/animals/Dog.java)
+
+## Задача 8: Банковский счет и принципы ООП
+**Описание:**
+Создайте приложение для управления банковскими счетами, которое включает следующие классы:
+1. Абстрактный класс BankAccount:
+   * Поля: accountNumber (номер счета), balance (баланс).
+   * Методы:
+     * Абстрактный метод calculateInterest().
+     * Реализация метода deposit(double amount) для пополнения счета.
+     * Реализация метода withdraw(double amount) с проверкой на достаточность средств.
+2. Класс SavingsAccount:
+   * Наследуется от BankAccount.
+   * Реализует метод calculateInterest(), добавляя 5% годовых к балансу.
+3. Класс CheckingAccount:
+   * Наследуется от BankAccount.
+   * Реализует метод calculateInterest() без начисления процентов.
+4. Инкапсуляция:
+   * Поля accountNumber и balance должны быть приватными, с геттерами и сеттерами.
+5. Полиморфизм:
+   * Используйте массив объектов BankAccount, чтобы показать работу методов для разных типов счетов.
 
