@@ -420,3 +420,4 @@ System.out.println("Периметр круга: " + circle.getPerimeter());
 
 ## [Задача 8: Банковский счет и принципы ООП](https://github.com/a-oleynik/interview-training/blob/main/Lesson3.md#задача-8-банковский-счет-и-принципы-ооп)
 
+## [Задача 9: Библиотека](https://github.com/a-oleynik/interview-training/blob/main/Lesson3.md#задача-9-библиотека)
