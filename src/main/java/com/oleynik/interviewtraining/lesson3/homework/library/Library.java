@@ -64,6 +64,10 @@ public class Library {
         library.removeBook(book2);
         System.out.println("Books in library:");
         System.out.println(library.getLibraryInfo());
+
+        library.removeBook(book2);
+        System.out.println("Books in library:");
+        System.out.println(library.getLibraryInfo());
     }
 
 }
