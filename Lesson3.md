@@ -39,7 +39,7 @@
     * withdraw(double amount): снятие денег с проверкой на достаточность средств.
     * getBalance(): возвращает текущий баланс.
 
-[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/simplebankaccount/BankAccount.java)
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/bankaccount/simple/BankAccount.java)
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -155,6 +155,6 @@
 5. Полиморфизм:
     * Используйте массив объектов BankAccount, чтобы показать работу методов для разных типов счетов.
 
-
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/bankaccount/withinheritance/Bank.java)
 
 [Back to Table of Contents](#table-of-contents)

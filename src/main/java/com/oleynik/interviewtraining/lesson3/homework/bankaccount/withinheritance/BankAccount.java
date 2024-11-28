@@ -1,21 +1,21 @@
-package com.oleynik.interviewtraining.lesson3.homework.bank;
+package com.oleynik.interviewtraining.lesson3.homework.bankaccount.withinheritance;
 
 import java.util.Objects;
 
-public class BankAccount {
-    private final int accountNumber;
-    private double balance;
+public abstract class BankAccount {
+    protected final long accountNumber;
+    protected double balance;
 
-    public BankAccount(int accountNumber) {
+    public BankAccount(long accountNumber) {
         this.accountNumber = accountNumber;
     }
 
-    public BankAccount(int accountNumber, double balance) {
+    public BankAccount(long accountNumber, double balance) {
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
 
-    public int getAccountNumber() {
+    public long getAccountNumber() {
         return accountNumber;
     }
 
@@ -44,6 +44,8 @@ public class BankAccount {
                 '}';
     }
 
+    public abstract void calculateInterest();
+
     public void deposit(double amount) {
         balance += amount;
     }
@@ -53,14 +55,4 @@ public class BankAccount {
             balance -= amount;
         } else throw new IllegalArgumentException("Not enough money");
     }
-
-    public static void main(String[] args) {
-        BankAccount bankAccount = new BankAccount(12345, 1000);
-        System.out.println(bankAccount);
-        bankAccount.deposit(500);
-        System.out.println(bankAccount);
-        bankAccount.withdraw(200);
-        System.out.println(bankAccount);
-    }
-
 }
