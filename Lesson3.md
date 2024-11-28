@@ -158,3 +158,27 @@
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/bankaccount/withinheritance/Bank.java)
 
 [Back to Table of Contents](#table-of-contents)
+
+## Задача 9: Библиотека
+**Описание:**
+Создайте класс Book, который будет представлять книгу в библиотеке. Класс должен иметь следующие свойства:
+1. Название книги (title) — строка.
+2. Автор книги (author) — строка.
+3. Год издания (yearPublished) — целое число.
+4. Статус книги (isAvailable) — логическое значение (доступна или нет).
+
+Класс должен содержать следующие методы:
+* Конструктор, который инициализирует все поля.
+* Метод borrowBook(), который помечает книгу как недоступную.
+* Метод returnBook(), который помечает книгу как доступную.
+* Метод getBookInfo(), который возвращает строку с информацией о книге (например: "Название: Название книги, Автор: Автор книги, Год издания: 2020, Доступна: true").
+
+* Дополнительное задание:
+Создайте класс Library, который будет управлять несколькими книгами. Реализуйте методы:
+1. Добавление книги в библиотеку.
+2. Поиск книги по названию.
+3. Вывод всех доступных книг.
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson3/homework/library/Library.java)
+
+[Back to Table of Contents](#table-of-contents)
