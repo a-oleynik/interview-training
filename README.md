@@ -423,3 +423,11 @@ System.out.println("Периметр круга: " + circle.getPerimeter());
 ## [Задача 9: Библиотека](https://github.com/a-oleynik/interview-training/blob/main/Lesson3.md#задача-9-библиотека)
 
 ## [Задача 10: Система управления заказами в интернет-магазине](https://github.com/a-oleynik/interview-training/blob/main/Lesson3.md#задача-10-система-управления-заказами-в-интернет-магазине)
+
+## [Занятие №4 Структуры данных](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md)
+
+## [Задачи на структуры данных в Java](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задачи-на-структуры-данных-в-java)
+
+## [Задача 1: Массивы (Arrays)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-1-массивы-arrays)
+
+## [Задача 2: Строки (Strings)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-2-строки-strings)
