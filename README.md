@@ -436,4 +436,6 @@ System.out.println("Периметр круга: " + circle.getPerimeter());
 
 ## [Задача 4: Стеки (Stacks)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-4-стеки-stacks)
 
+## [Задача 5: Очереди (Queues)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-5-очереди-queues)
+
 ## [Задача 6: Множества (Sets)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-6-множества-sets)

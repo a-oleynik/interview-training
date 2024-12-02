@@ -5,6 +5,7 @@
 * [Задача 2: Строки (Strings)](#задача-2-строки-strings)
 * [Задача 3: Списки (Lists)](#задача-3-списки-lists)
 * [Задача 4: Стеки (Stacks)](#задача-4-стеки-stacks)
+* [Задача 5: Очереди (Queues)](#задача-5-очереди-queues)
 * [Задача 6: Множества (Sets)](#задача-6-множества-sets)
 
 ## Задачи на структуры данных в Java
@@ -34,6 +35,13 @@
 Написать функцию, использующую стек для проверки правильности последовательности скобок в строке (например, "([]{})" является правильной, а "([)]" — нет).
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson4/homework/Stacks.java)
+
+[Back to Table of Contents](#table-of-contents)
+
+## Задача 5: Очереди (Queues)
+Разработать метод, который использует очередь для ротации элементов массива вправо на n позиций.
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson4/homework/Queues.java)
 
 [Back to Table of Contents](#table-of-contents)
 
