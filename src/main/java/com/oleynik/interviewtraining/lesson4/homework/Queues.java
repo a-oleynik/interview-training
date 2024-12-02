@@ -30,13 +30,36 @@ public class Queues {
         return result;
     }
 
+    public static int[] rotate3(int[] nums, int k) {
+        int length = nums.length;
+        if (k > length) {
+            k = k % length;
+        }
+        reverse(nums, 0, length - 1);
+        reverse(nums, 0, k - 1);
+        reverse(nums, k, length - 1);
+        return nums;
+    }
+
+    public static void reverse(int[] nums, int iFirst, int iLast) {
+        int temp;
+        int last = iFirst + (iLast - iFirst + 1) / 2;
+        for (int i = iFirst, j = iLast; i < last; i++, j--) {
+            temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
+        }
+    }
+
     public static void main(String[] args) {
         int [] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int k = 4;
         System.out.println("Original array: " + Arrays.toString(nums));
         int [] rotated = rotate(nums, k);
-        System.out.println("Rotated array: " + Arrays.toString(rotated));
+        System.out.println("Rotated array (1): " + Arrays.toString(rotated));
         int [] rotated2 = rotate2(nums, k);
-        System.out.println("Rotated2 array: " + Arrays.toString(rotated2));
+        System.out.println("Rotated array (2): " + Arrays.toString(rotated2));
+        int [] rotated3 = rotate3(nums, k);
+        System.out.println("Rotated array (3): " + Arrays.toString(rotated3));
     }
 }
