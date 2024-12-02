@@ -3,6 +3,7 @@
 * [Задачи на структуры данных в Java](#задачи-на-структуры-данных-в-java)
 * [Задача 1: Массивы (Arrays)](#задача-1-массивы-arrays)
 * [Задача 2: Строки (Strings)](#задача-2-строки-strings)
+* [Задача 3: Списки (Lists)](#задача-3-списки-lists)
 
 ## Задачи на структуры данных в Java
 
@@ -17,5 +18,12 @@
 Создать функцию, которая принимает строку и возвращает её в обратном порядке.
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson1/ReversedString.java)
+
+[Back to Table of Contents](#table-of-contents)
+
+## Задача 3: Списки (Lists)
+Разработать метод, который принимает список целых чисел и удаляет из него все четные числа.
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson4/homework/Lists.java)
 
 [Back to Table of Contents](#table-of-contents)

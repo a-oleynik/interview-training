@@ -431,3 +431,5 @@ System.out.println("Периметр круга: " + circle.getPerimeter());
 ## [Задача 1: Массивы (Arrays)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-1-массивы-arrays)
 
 ## [Задача 2: Строки (Strings)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-2-строки-strings)
+
+## [Задача 3: Списки (Lists)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-3-списки-lists)
