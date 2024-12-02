@@ -433,3 +433,7 @@ System.out.println("Периметр круга: " + circle.getPerimeter());
 ## [Задача 2: Строки (Strings)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-2-строки-strings)
 
 ## [Задача 3: Списки (Lists)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-3-списки-lists)
+
+## [Задача 4: Стеки (Stacks)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-4-стеки-stacks)
+
+## [Задача 6: Множества (Sets)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-6-множества-sets)

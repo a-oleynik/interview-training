@@ -4,6 +4,8 @@
 * [Задача 1: Массивы (Arrays)](#задача-1-массивы-arrays)
 * [Задача 2: Строки (Strings)](#задача-2-строки-strings)
 * [Задача 3: Списки (Lists)](#задача-3-списки-lists)
+* [Задача 4: Стеки (Stacks)](#задача-4-стеки-stacks)
+* [Задача 6: Множества (Sets)](#задача-6-множества-sets)
 
 ## Задачи на структуры данных в Java
 
@@ -25,5 +27,19 @@
 Разработать метод, который принимает список целых чисел и удаляет из него все четные числа.
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson4/homework/Lists.java)
+
+[Back to Table of Contents](#table-of-contents)
+
+## Задача 4: Стеки (Stacks)
+Написать функцию, использующую стек для проверки правильности последовательности скобок в строке (например, "([]{})" является правильной, а "([)]" — нет).
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson4/homework/Stacks.java)
+
+[Back to Table of Contents](#table-of-contents)
+
+## Задача 6: Множества (Sets)
+Написать функцию, которая принимает массив целых чисел и возвращает количество уникальных чисел в этом массиве.
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson4/homework/Sets.java)
 
 [Back to Table of Contents](#table-of-contents)
