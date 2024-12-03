@@ -8,6 +8,7 @@
 * [Задача 5: Очереди (Queues)](#задача-5-очереди-queues)
 * [Задача 6: Множества (Sets)](#задача-6-множества-sets)
 * [Задача 7: Словари (Maps)](#задача-7-словари-maps)
+* [Задача 8: Деревья (Trees)](#задача-8-деревья-trees)
 
 ## Задачи на структуры данных в Java
 
@@ -57,5 +58,12 @@
 Создать метод, который считает количество вхождений каждого символа в переданной строке и возвращает результат в виде карты (map).
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson4/homework/Maps.java)
+
+[Back to Table of Contents](#table-of-contents)
+
+## Задача 8: Деревья (Trees)
+Разработать функцию, которая принимает корень бинарного дерева поиска и целочисленное значение и добавляет это значение в дерево с сохранением свойств BST.
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson4/homework/bstree/TreeNodeUtil.java)
 
 [Back to Table of Contents](#table-of-contents)
