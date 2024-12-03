@@ -16,7 +16,7 @@ public class TreeNodeUtil {
             return root;
 
         // Otherwise, recur down the tree
-        if (key <= root.key)
+        if (key < root.key)
             root.left = insert(root.left, key);
         else
             root.right = insert(root.right, key);
