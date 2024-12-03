@@ -441,3 +441,5 @@ System.out.println("Периметр круга: " + circle.getPerimeter());
 ## [Задача 6: Множества (Sets)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-6-множества-sets)
 
 ## [Задача 7: Словари (Maps)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-7-словари-maps)
+
+## [Задача 8: Деревья (Trees)](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-8-деревья-trees)
