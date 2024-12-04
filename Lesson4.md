@@ -9,6 +9,7 @@
 * [Задача 6: Множества (Sets)](#задача-6-множества-sets)
 * [Задача 7: Словари (Maps)](#задача-7-словари-maps)
 * [Задача 8: Деревья (Trees)](#задача-8-деревья-trees)
+* [Задача 9: Priority Queues](#задача-9-priority-queues)
 
 ## Задачи на структуры данных в Java
 
@@ -65,5 +66,12 @@
 Разработать функцию, которая принимает корень бинарного дерева поиска и целочисленное значение и добавляет это значение в дерево с сохранением свойств BST.
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson4/homework/bstree/TreeNodeUtil.java)
+
+[Back to Table of Contents](#table-of-contents)
+
+## Задача 9: Priority Queues
+Написать метод, который использует приоритетную очередь для сортировки массива целых чисел по убыванию.
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson4/homework/PriorityQueueSorting.java)
 
 [Back to Table of Contents](#table-of-contents)
