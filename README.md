@@ -450,4 +450,6 @@ System.out.println("Периметр круга: " + circle.getPerimeter());
 
 ## [Задание: подумать над улучшением кода](https://github.com/a-oleynik/interview-training/blob/main/Lesson5.md#задание-подумать-над-улучшением-кода)
 
-## [Пример 1](#пример-1)
+## [Пример 1](https://github.com/a-oleynik/interview-training/blob/main/Lesson5.md#пример-1)
+
+## [Пример 2](https://github.com/a-oleynik/interview-training/blob/main/Lesson5.md#пример-2)

@@ -2,6 +2,7 @@
 ## Table of Contents
 * [Задание: подумать над улучшением кода](#задание-подумать-над-улучшением-кода)
 * [Пример 1](#пример-1)
+* [Пример 2](#пример-2)
 
 ## Задание: подумать над улучшением кода
 ## Пример 1:
@@ -26,3 +27,27 @@ public class DiscountCalculator {
 
 [Back to Table of Contents](#table-of-contents)
 
+## Пример 2:
+
+```java
+public class Sorter {
+    public void sort(int[] array, String algorithm) {
+        if (algorithm.equals("bubble")) {
+// Реализация пузырьковой сортировки
+            System.out.println("Sorting using bubble sort");
+        } else if (algorithm.equals("merge")) {
+// Реализация сортировки слиянием
+            System.out.println("Sorting using merge sort");
+        } else if (algorithm.equals("quick")) {
+// Реализация быстрой сортировки
+            System.out.println("Sorting using quick sort");
+        } else {
+            throw new IllegalArgumentException("Unsupported sorting algorithm: " + algorithm);
+        }
+    }
+}
+```
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson5/sorting/Main.java)
+
+[Back to Table of Contents](#table-of-contents)
