@@ -6,6 +6,7 @@
 * [Пример 1](#пример-1)
 * [Пример 2](#пример-2)
 * [Пример 3](#пример-3)
+* [Пример 4](#пример-4)
 
 ## Задание: подумать над улучшением кода
 
@@ -76,5 +77,25 @@ public class ReportGenerator {
 }
 ```
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson5/reporting/Main.java)
+
+[Back to Table of Contents](#table-of-contents)
+
+## Пример 4:
+
+```java
+public class VehicleFactory {
+    public Object createVehicle(String type) {
+        if (type.equals("car")) {
+            return new Car();
+        } else if (type.equals("bike")) {
+            return new Bike();
+        } else {
+            throw new IllegalArgumentException("Unknown vehicle type: " + type);
+        }
+    }
+}
+```
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson5/vehicles/VehicleFactory.java)
 
 [Back to Table of Contents](#table-of-contents)
