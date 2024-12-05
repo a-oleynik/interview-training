@@ -7,6 +7,7 @@
 * [Пример 2](#пример-2)
 * [Пример 3](#пример-3)
 * [Пример 4](#пример-4)
+* [Пример 5](#пример-5)
 
 ## Задание: подумать над улучшением кода
 
@@ -97,5 +98,27 @@ public class VehicleFactory {
 ```
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson5/vehicles/VehicleFactory.java)
+
+[Back to Table of Contents](#table-of-contents)
+
+## Пример 5:
+
+```java
+public class FileHandler {
+    public void saveTextFile(String fileName, String content) throws IOException {
+        FileWriter writer = new FileWriter(fileName);
+        writer.write(content);
+        writer.close();
+    }
+
+    public void saveBinaryFile(String fileName, byte[] data) throws IOException {
+        FileOutputStream stream = new FileOutputStream(fileName);
+        stream.write(data);
+        stream.close();
+    }
+}
+```
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson5/filesaving/Main.java)
 
 [Back to Table of Contents](#table-of-contents)
