@@ -10,6 +10,7 @@
 * [Задача 7: Словари (Maps)](#задача-7-словари-maps)
 * [Задача 8: Деревья (Trees)](#задача-8-деревья-trees)
 * [Задача 9: Priority Queues](#задача-9-priority-queues)
+* [Задача 10: Linked Lists](#задача-10-linked-lists)
 
 ## Задачи на структуры данных в Java
 
@@ -73,5 +74,12 @@
 Написать метод, который использует приоритетную очередь для сортировки массива целых чисел по убыванию.
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson4/homework/PriorityQueueSorting.java)
+
+[Back to Table of Contents](#table-of-contents)
+
+## Задача 10: Linked Lists
+Создать функцию, которая определяет, есть ли в связанном списке цикл.
+
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson4/homework/linkedlistcycle/Solution.java)
 
 [Back to Table of Contents](#table-of-contents)

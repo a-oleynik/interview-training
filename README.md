@@ -446,6 +446,8 @@ System.out.println("Периметр круга: " + circle.getPerimeter());
 
 ## [Задача 9: Priority Queues](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-9-priority-queues)
 
+## [Задача 10: Linked Lists](https://github.com/a-oleynik/interview-training/blob/main/Lesson4.md#задача-10-linked-lists)
+
 ## [Занятие №5 Абстракция и проектирование](https://github.com/a-oleynik/interview-training/blob/main/Lesson5.md)
 
 ## [Задание: подумать над улучшением кода](https://github.com/a-oleynik/interview-training/blob/main/Lesson5.md#задание-подумать-над-улучшением-кода)
