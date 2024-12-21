@@ -14,7 +14,7 @@
 
 Выход объяснение: nums[0] + nums[1] == 9, мы возвращаем [0, 1].
 
-[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/.lesson6/TwoSum.java)
+[Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson6/TwoSum.java)
 [Livecode](https://www.youtube.com/watch?v=ED2CVzR3kM0)
 
 [Back to Table of Contents](#table-of-contents)
