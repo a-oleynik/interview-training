@@ -33,6 +33,6 @@
 
 [Решение](https://github.com/a-oleynik/interview-training/tree/main/src/main/java/com/oleynik/interviewtraining/lesson6/reverselinkedlist/Solution.java)
 
-[Livecode Video](https://www.youtube.com/watch?v=ED2CVzR3kM0)
+[Livecode Video](https://www.youtube.com/watch?v=WEniTizTEL4)
 
 [Back to Table of Contents](#table-of-contents)
