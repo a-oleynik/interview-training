@@ -467,3 +467,5 @@ System.out.println("Периметр круга: " + circle.getPerimeter());
 ## [Задача 1](https://github.com/a-oleynik/interview-training/blob/main/Lesson6.md#задача-1)
 
 ## [Задача 2](https://github.com/a-oleynik/interview-training/blob/main/Lesson6.md#задача-2)
+
+## [Задача 4](https://github.com/a-oleynik/interview-training/blob/main/Lesson6.md#задача-4)
